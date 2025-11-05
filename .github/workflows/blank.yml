@@ -11,7 +11,7 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ghcr.io/${{ github.repository }}/my-api
+  IMAGE_NAME: ghcr.io/${{ github.repository }}/docker-api
 
 jobs:
   build:
